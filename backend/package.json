@@ -46,6 +46,7 @@
     "geoip-country": "^4.0.72",
     "luxon": "^1.26.0",
     "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "node-mailjet": "^3.3.4",
     "phc-argon2": "^1.1.1",
     "proxy-addr": "^2.0.6",
