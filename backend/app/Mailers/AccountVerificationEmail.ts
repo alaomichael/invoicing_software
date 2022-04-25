@@ -17,7 +17,7 @@ export default class AccountVerificationEmail extends BaseMailer {
 
     // Send email to new user
     message
-      .subject('Akpoho Software! Please Confirm Your Email Address')
+      .subject('Michael Alao Software! Please Confirm Your Email Address')
       .from(APP_SENDING_EMAIL, APP_NAME)
       .to(this.newUser.email, this.newUser.profile.fullName)
       .htmlView('emails/new-account-verification', {
